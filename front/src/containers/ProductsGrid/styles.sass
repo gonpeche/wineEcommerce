@@ -1,0 +1,112 @@
+$violetaVino: #722f37
+$violetaVino2: #853740
+$violetaVino3: #913d47
+$violetaVino4: #bf898f
+$grisMuyClaro: #f2f2f2
+$grisClaro: #e1e1e1
+$gris2: #585858
+$grisMediano: #919191
+$negro: #1d1d1d
+
+*
+
+.btn-violeta, .btn-violeta2
+    padding: 10px
+    border-radius: 3px
+    transition-duration: 0.3s
+    text-align: center
+    justify-content: center
+    margin: 3px
+
+.btn-violeta
+    background-color: $violetaVino3
+    border: 1px solid $violetaVino4
+    color: white
+    &:hover
+        background-color: $violetaVino2
+        color: white
+        transition-duration: 0.3s
+        cursor: pointer
+
+.btn-violeta2 
+    background-color: white
+    border: 1px solid $violetaVino4
+    color: $violetaVino2
+    &:hover
+        background-color: $violetaVino2
+        color: white
+        transition-duration: 0.3s
+        cursor: pointer
+body
+    margin: 0px
+
+#containerAllApp
+    display: flex
+
+#navbarLeft
+    background-color: grey
+    display: flex
+    flex-direction: row
+    min-width: 15%
+    min-height: 100vh
+    .flotando
+        display: flex
+        flex-direction: column
+
+#listaProductos
+
+    font-family: 'Lato', 'Roboto', sans-serif
+    background-color: $grisMuyClaro
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    flex-grow: 1
+    align-items: flex-start
+    justify-content: space-around
+    width: 1000px
+    padding-top: 50px
+    .singleProduct
+        background-color: white
+        border-radius: 3px
+        border: 1px solid $grisClaro
+        padding: 10px
+        width: 200px
+        height: 330px
+        transition-duration: 0.3s
+        margin-bottom: 20px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        &:hover
+            transition-duration: 0.3s
+        .imgSingle
+            height: 200px
+            width: 200px
+            object-fit: contain
+        h1,h3
+            text-align: center
+        h1
+            font-size: 1.1em
+            font-weight: 300    
+            margin-bottom: 0px
+            color: $violetaVino
+        h3
+            font-size: 0.9em
+            color: $gris2
+            font-weight: 300
+            margin: 0px
+        hr
+            border: 1px solid $grisClaro
+            border-width: 1px 0px 0px 0px
+            opacity: 0.5
+        .productoBotones
+            display: flex
+            justify-content: center
+            .btn-violeta
+                width: 50%
+            .btn-violeta2
+                width: 20%
+
+.vinoRecomendados
+    font-family: "Lato", "Roboto", sans-serif
+    font-weight: 500

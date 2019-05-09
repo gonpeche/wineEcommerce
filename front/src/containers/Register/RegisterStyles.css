@@ -1,0 +1,18 @@
+.btnRegister{
+    background-color: #0c814b !important;
+    color: white !important;
+}
+
+.btnRegister:hover{
+    background-color: #11995a !important;
+}
+
+.colorInput{
+    color: #504F50 !important;
+}
+.inputcolor::after{
+    border-bottom: 5px solid red;
+}
+.MuiInput-underline-184:after{
+    color: red !important;
+}

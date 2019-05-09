@@ -1,0 +1,42 @@
+.formCreateCategory .botones button {
+  background-color: white;
+  border: 0px;
+  padding: 10px;
+  border-radius: 3px;
+  color: #4d7b9c;
+  margin: 10px;
+  min-width: 120px;
+  border: 1px solid #4d7b9c;
+  transition-duration: 0.3s;
+}
+.formCreateCategory .botones button:hover {
+  background-color: #4d7b9c;
+  color: white;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.formCreateCategory {
+  font-family: "Roboto", sans-serif;
+  padding: 30px;
+	height: 100%;
+}
+.formCreateCategory label {
+  margin: 10px;
+  font-size: 1.2em;
+  color: #5a5a5a;
+}
+.formCreateCategory input {
+  font-size: 1em;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  min-width: 60%;
+  color: #5a5a5a;
+  transition-duration: 0.2s;
+}
+.formCreateCategory input:focus {
+  transition-duration: 0.2s;
+  outline: 0px;
+  border: 1px solid #82957e;
+}

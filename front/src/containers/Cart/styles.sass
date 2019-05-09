@@ -1,0 +1,149 @@
+$violetaVino: #722f37
+$violetaVino2: #853740
+$violetaVino3: #913d47
+$violetaVino4: #bf898f
+$grisMuyClaro: #f2f2f2
+$grisClaro: #e1e1e1
+$gris2: #585858
+$grisMediano: #919191
+$negro: #313131
+.carritoContainerFluid
+    font-family: 'Lato', 'Roboto', sans-serif
+    color: $negro
+    background-color: $grisMuyClaro
+    min-height: 600px
+.carritoContainer
+    justify-content: center
+    padding-top: 30px
+    display: flex
+    table
+        background-color: white
+        padding: 20px
+        min-width: 80%
+        flex-direction: column
+        align-items: stretch
+        border-radius: 5px
+        border: 1px solid #e1e1e1
+        thead
+            min-height: 50px
+            th
+                span
+                    font-weight: 500
+        tbody
+            flex-direction: column
+            color: #6c6c6c
+        thead, tbody
+            display: flex
+            color: $negro
+            tr
+                align-items: center
+                display: flex
+                flex-grow: 1
+                justify-content: space-between
+                max-height: 100px
+                border-bottom: 1px solid $grisMuyClaro
+            th
+                font-weight: 300
+                display: flex
+                width: 25%
+                justify-content: center
+                align-items: center
+                p
+                    display: flex
+                    margin: 0px       
+                .sumarRestar
+                    border: 1px solid #bcbcbc
+                    background-color: white
+                    border-radius: 3px
+                    padding: 4px 8px 4px 8px
+                    margin: 5px
+                    color: #7d7d7d
+                    min-width: 26px
+                    min-height: 15px
+                    &:active
+                        background-color: #f6f6f6
+                    &:focus
+                        outline-color: white
+                div
+                    h2,h3
+                        font-weight: 300
+                    h2
+                        font-size: 16px
+                    h3
+                        font-size: 13px
+                    img
+                        max-width: 100px
+                        max-height: 80px
+                        object-fit: contain
+                    h2,h3
+                        display: flex
+                        justify-content: flex-start
+            .buttonEliminar
+                color: red
+                background-color: white
+                border: 0px solid white
+                font-size: 20px
+                font-weight: bold 
+.carritoFooter
+    display: flex
+    justify-content: center
+    margin-top: 10px
+    .carritoFooterCheckout
+        background-color: white
+        padding: 20px
+        min-width: 80%
+        display: flex
+        border-radius: 5px
+        justify-content: space-around
+        margin-bottom: 20px
+        border: 1px solid #e1e1e1
+    .footerLeft
+        display: flex
+        flex-grow: 1
+        max-width: 70%
+    .footerRight
+        max-width: 49%
+        display: flex
+        justify-content: flex-end
+    .btnUpdate, .btnCheckout
+        background-color: white
+        padding: 10px
+        border-radius: 5px
+        border: 0px
+    .btnBack
+        background-color: white
+        padding: 10px
+        border-radius: 3px
+        border: 2px solid $grisClaro
+        cursor: pointer
+        transition-duration: 0.2s
+        color: #5a5a5a
+        &:hover
+            background-color: #f6f6f6
+            border: 2px solid $grisClaro
+            transition-duration: 0.2s
+
+    
+    .btnCheckout
+        background-color: #1b874b
+        color: white
+        transition-duration: 0.3s
+        &:hover
+            background-color: #229e59
+            transition-duration: 0.3s
+            cursor: pointer
+.eliminarCarrito
+    border: 1px solid #b64343
+    padding: 10px
+    background-color: white
+    color: #b64343
+    transition-duration: 0.3s
+    border-radius: 3px
+    &:hover
+        transition-duration: 0.3s
+        background-color:  #b64343
+        color: white
+        cursor: pointer
+.trfinal
+    border-bottom: 0px solid black !important
+    margin: 15px

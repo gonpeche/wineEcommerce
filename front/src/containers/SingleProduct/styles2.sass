@@ -1,0 +1,76 @@
+.singleProdContainer
+    display: flex
+    justify-content: center
+    padding: 20px
+    .imgProd
+        max-width: 360px
+        max-height: 360px     
+        //border: 1px solid black
+        img
+            object-fit: cover
+            width: 360px
+            height: 360px
+
+    .descripcionProd
+        font-family: "Lato", "Roboto", sans-serif
+        //border: 1px solid blue
+        padding: 20px
+        padding-top: 0px
+        .buttonCarrito
+            background-color: #913d47
+            color: white
+            border: 1px solid #913d47
+            padding: 10px
+            border-radius: 3px
+            transition-duration: 0.3s
+            &:hover
+                cursor: pointer
+                background-color: #910e24
+                transition-duration: 0.3s
+        h1
+            font-weight: 500
+        h3
+            font-weight: 100
+            span
+                color: #af3234
+        h2, p
+            font-weight: 100
+        p
+            color: grey
+
+@media only screen and (max-width: 600px)
+    .singleProdContainer
+        display: flex
+        justify-content: center
+        padding: 20px
+        .imgProd
+            max-width: 360px
+            max-height: 360px     
+            //border: 1px solid black
+            img
+                object-fit: cover
+                max-width: 260px
+                max-height: 260px
+@media only screen and (max-width: 480px)
+.singleProdContainer
+    display: flex
+    justify-content: center
+    padding: 0px
+    .imgProd
+        max-width: 360px
+        max-height: 360px     
+        padding-top: 30px
+        //border: 1px solid black
+        img
+            object-fit: cover
+            max-width: 360px
+            max-height: 360px
+.descripcionProd
+    h2
+        margin-bottom: 0px
+    h3
+        margin-top: 5px
+        
+
+
+

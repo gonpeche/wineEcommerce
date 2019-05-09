@@ -1,0 +1,91 @@
+/* #383838  -> NEGRITO NAVBAR*/
+html, body{
+	height: 100%;
+}
+/* CONTAINER */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+/* SIDEBAR */
+.side {
+    background-color: rgba(189,152,109,.07);
+    font-family: "Lato", "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #383838;
+    line-height: 1.905rem;
+    max-width: 250px;
+		min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side div {
+    padding-left: 3px;
+}
+
+.filtros {
+    padding-left: 2px;
+}
+
+.side ul {
+    padding-left: 0px;
+    margin: 0;
+}
+
+.side li {
+    padding-left: 5px;
+}
+
+.side ul li {
+    list-style-type: none;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.side h2 {
+    margin: 0;
+    font-weight: 400
+}
+.side h3{
+    font-weight: 400    
+}
+
+
+
+
+/* PRODUCTOS */
+.main {
+    flex: 1;
+    background-color: white;
+		height: 100%;
+    /* padding-top: 20px; */
+}
+
+
+@media only screen and (max-width: 375px) {
+    .side{
+        max-width: 120px
+    }
+    .side li{
+        padding-left: 0px
+    }
+  
+    
+}
+
+.container{
+	height: 100%;
+}

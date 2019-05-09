@@ -1,0 +1,45 @@
+{
+  "name": "omdb-front",
+  "version": "1.0.0",
+  "description": "movies info front end site",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atralice/omdb.git"
+  },
+  "author": "plataforma 5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atralice/omdb/issues"
+  },
+  "homepage": "https://github.com/atralice/omdb#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "css-loader": "^1.0.1",
+    "qs": "^6.5.2",
+    "react": "^16.2.0",
+    "react-checkbox-group": "^4.0.1",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-virtualized": "^9.21.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.11.0"
+  }
+}

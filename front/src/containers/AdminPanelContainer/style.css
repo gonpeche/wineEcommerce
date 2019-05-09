@@ -1,0 +1,42 @@
+.container{
+	display: flex;
+}
+.sidebar{
+	background-color: rgba(189,152,109,.07);
+	font-family:'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #000;
+	line-height: 1.905rem;
+	min-width: 210px;
+	max-width: 210px;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	/* height: 100%; */
+}
+
+.sidebar2{
+	background-color: rgba(189,152,109,.07);
+	font-family:'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	color: #000;
+	line-height: 1.905rem;
+	display: flex;
+	flex-direction: column;
+	padding: 5% 20%;
+	height: 100vh;
+}
+
+.linked:hover {
+	color: #913d47;
+	cursor: pointer;
+}
+
+.sidebar .hr{
+  border: 0;
+  width: 90%;
+}
+

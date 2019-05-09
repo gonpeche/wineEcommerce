@@ -1,0 +1,110 @@
+.singleProdContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.singleProdContainer .imgProd {
+  max-width: 360px;
+  max-height: 360px;
+}
+/* .singleProdContainer .imgProd img {
+  object-fit: cover;
+  width: 360px;
+  height: 360px;
+} */
+.singleProdContainer .descripcionProd {
+  font-family: "Lato", "Roboto", sans-serif;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.singleProdContainer .descripcionProd p{
+	min-width: 400px;
+	max-width: 400px;
+}
+.singleProdContainer .descripcionProd .buttonCarrito {
+  background-color: #913d47;
+  color: white;
+  border: 1px solid #913d47;
+  padding: 10px;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+}
+.singleProdContainer .descripcionProd .buttonCarrito:hover {
+  cursor: pointer;
+  background-color: #910e24;
+  transition-duration: 0.3s;
+}
+.singleProdContainer .descripcionProd h1 {
+  font-weight: 500;
+}
+.singleProdContainer .descripcionProd h2 span {
+  color: #af3234;
+}
+.singleProdContainer .descripcionProd h3 {
+  font-weight: 100;
+}
+.singleProdContainer .descripcionProd h3 span {
+  color: #af3234;
+}
+.singleProdContainer .descripcionProd h2, .singleProdContainer .descripcionProd p {
+  font-weight: 100;
+}
+.singleProdContainer .descripcionProd p {
+  color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+  .singleProdContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .singleProdContainer .imgProd {
+    max-width: 360px;
+    max-height: 360px;
+  }
+  .singleProdContainer .imgProd img {
+    object-fit: cover;
+    max-width: 260px;
+    max-height: 260px;
+  }
+}
+.singleProdContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+.singleProdContainer .imgProd {
+  max-width: 360px;
+  max-height: 360px;
+  padding-top: 30px;
+}
+.singleProdContainer .imgProd img {
+  object-fit: cover;
+  max-width: 360px;
+  max-height: 360px;
+}
+
+.descripcionProd h2 {
+  margin-bottom: 0px;
+}
+.descripcionProd h3 {
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=styles2.css.map */
+
+
+@media (max-width: 600px) {
+    .singleProdContainer .imgProd img {
+        object-fit: cover;
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .singleProdContainer .descripcionProd {
+      font-family: "Lato", "Roboto", sans-serif;
+      padding: 0px;
+      padding-top: 0px;
+    }
+}

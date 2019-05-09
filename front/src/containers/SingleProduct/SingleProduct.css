@@ -1,0 +1,88 @@
+/* WRAPPER */
+.wrapper {
+    background-color: #f2f2f2;
+    border: 1px solid #e1e1e1;
+    max-width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Lato", "Roboto", sans-serif;
+    color: black;
+    margin-top:50px;
+}
+
+
+/* IMAGEN PRODUCTO */
+.imagenProductoContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+/* CARACTERISTICAS */
+.caracteristicasProductoContainer {
+    flex: 1;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.detallesProducto {
+    background-color: #f2f2f2;
+    /* border: solid 1px black; */
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex: 4;
+}
+
+.detallesCompra {
+    flex: 1;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.carrito {
+    /* background-color: #00AE7C; */
+    width: 232px;
+    height: 44px;
+    margin-right: 32px;
+    line-height: 46px;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFF;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.carrito > a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.precio {
+    font-size: 39px;
+    color: #AE1C34;
+}
+
+hr {
+    border: 1px solid #e1e1e1;
+    border-width: 1px 0px 0px 0px;
+    opacity: 0.5
+}

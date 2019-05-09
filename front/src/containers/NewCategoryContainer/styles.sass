@@ -1,0 +1,55 @@
+$azul: #4d7b9c
+$gris: #d9d9d9
+$GrisForm: #5a5a5a
+
+
+.containerCategorias
+    width: 1000px
+    .botones
+        display: flex
+        justify-content: center
+        button
+            background-color: white
+            border: 0px
+            padding: 10px
+            border-radius: 3px
+            color: $azul
+            margin: 10px
+            min-width: 120px
+            border: 1px solid $azul
+            transition-duration: 0.3s
+            &:hover
+                background-color: $azul
+                color: white
+                transition-duration: 0.3s
+                cursor: pointer
+                
+.formCreateCategory
+    font-family: "Roboto", sans-serif
+    padding: 30px
+
+    label
+        margin: 10px
+        font-size: 1.2em
+        color: $GrisForm
+    input
+        font-size: 1em
+        border-radius: 3px
+        border: 1px solid $gris
+        padding: 10px
+        min-width: 60%
+        color: $GrisForm
+        transition-duration: 0.2s
+        &:focus
+            transition-duration: 0.2s
+            outline: 0px
+            border: 1px solid #82957e
+    button
+        background-color: $azul
+        border: 0px
+        padding: 10px
+        border-radius: 3px
+        color: white
+        margin: 10px
+        margin-left: 235px
+        min-width: 100px

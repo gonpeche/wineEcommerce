@@ -1,0 +1,19 @@
+{
+	"smtp" :
+	  {
+			"host" : "smtp.dreamhost.com",
+			"port" : 465,
+			"secure" : true,
+			"auth" : {
+				"user" : "ecommerce@proximacopa.com",
+				"pass" : "Javier2019"
+			}
+		},
+		
+	"mailOptions" : 
+		{
+			"from" : "ecommerce@proximacopa.com",
+			"to" : "ldpogorelsky@gmail.com",
+			"subject" : "Nueva compra realizada"
+		}
+}
