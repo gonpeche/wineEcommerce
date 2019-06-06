@@ -1,17 +1,18 @@
-# Próxima Copa
-## E-commerce dedicado a la venta de vinos y bebidas.
+# Próxima Copa (Next Cup)
+## Wine E-commerce
 
-Proyecto desplegado en el tramo final de nuestro coding bootcamp, como parte de una práctica profesional integral de todas las herramientas y habilidades adquiridas en el trayecto.
+Final project of the coding bootcamp which aimed to integrate all the technologies and best practices learned during bootcamp experience.
 
-Conformados en un equipo de 4 integrantes + 1 scrum master, llevamos a cabo tareas que abarcaron trabajar de punta a punta el stack tecnológico javascript para concluir en una single page application de uso real, dedicada a la venta de vinos y bebidas.
+The project was formed by 4 devs and 1 scrum master. The whole project was built from back to front, using different technologies and working closely with each team member, reviewing every pull request and doing pair programming if needed. The webapp was built as SPA (single page application) using **React-Router**.
 
-El back-end fue desarrollado en **Node.js** con su framework **Express.js**, utilizamos **PostgreSQL** y **Sequelize** como ORM para la persistencia de datos, y **Passport** para autenticación. 
+On the backend, we used **Node.js** with **Express.jss**, also **PostgreSQL** was chosen with **Sequelize** as the ORM por data persistence. Also **Passport** was integrated for user authentication.
 
-Para front-end trabajamos con **React.js**, **Redux** (react-redux), **Babel** (compiler), **Material-ui** (UI), y por otro lado **Webpack** nos sirvió de bundler.
+On the fronend, we worked with **React**, **Redux** (react-redux), **Babel** (compiler), **Material-UI** and **Webpack** for bundling the project.
 
-El proyecto se extendió durante un período de 6 semanas.
+The whole project duration was 6 weeks.
 
-Integrantes:
+Team members:
+
 * [Diego Fernandez](https://github.com/diegofernandezfontana)
 * [Gonzalo Espeche](https://github.com/gonpeche)
 * [Javier Cardozo](https://github.com/CardozoJavier)
